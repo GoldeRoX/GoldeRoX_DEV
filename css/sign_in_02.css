@@ -1,0 +1,209 @@
+body{
+
+    color: whitesmoke;
+    background-color: #202020;    
+    margin:0;
+}
+
+#sign{
+    clear: both;
+    float: left;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+#LOGO{
+    float: left;
+    width: 20%;
+}
+
+#LOGO h1{
+    text-shadow: 1px 1px 2px red; 
+    margin-left: 20%;
+    font-size: 40px;
+    text-align: left;
+    color: #FA8072;
+    letter-spacing: 0.03em;
+    height: 400px;
+    width: 42%;
+}
+
+#LOGO a{
+    text-decoration: none;
+    color: #FA8072;
+}
+
+#HOME{
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 200px;
+    color: whitesmoke;
+}
+
+#INFO{
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 200px;
+    color: whitesmoke;
+}
+
+#CONTACT{
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 200px;
+    color: whitesmoke;
+}
+
+#CONTACT a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#INFO a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#HOME a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#CONTACT a:hover{
+    text-decoration: none;
+    color: #FA8072;
+}
+
+#INFO a:hover{
+    text-decoration: none;
+    color: #FA8072;
+}
+
+#HOME a:hover{
+    text-decoration: none;
+    color: #FA8072;
+}
+
+#github_1{
+    clear: both;
+    text-align: center;
+    float: left;
+    width: 35%;
+}
+
+#github_2{
+    text-align: center;
+    float: right;
+    width: 35%;
+}
+
+#left_sign{
+float: left;
+text-align: center;
+transform: translate(-50%, 0%);
+width: 50%;
+}
+
+#right_sign{
+float: left;
+text-align: center;
+transform: translate(50%, 0%);
+width: 50%;
+}
+
+#footer1 {
+    color: whitesmoke;
+    font-family: 'Roboto Thin';
+    text-align: right;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    right: 0pt;
+}
+
+#footer1 > a{
+    color: #FA8072;
+    text-decoration: none;
+}
+
+#footer1 > a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+footer {
+    color: whitesmoke;
+    font-family: 'Roboto Thin';
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #202020;
+    text-align: center;
+}
+
+.box h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type = "email"], .box input[type = "password"],  .box input[type = "text"],  .box input[type = "tel"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 130px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "email"]:focus, .box input[type = "password"]:focus,  .box input[type = "text"]:focus,  .box input[type = "tel"]:focus{
+    width: 150px;
+    border-color: #349898;
+}
+
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #349898;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+    background-color: #349898;
+}
